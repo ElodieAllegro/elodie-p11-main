@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import Slider from "../../components/Slider/Slider";
 import Accordeon from "../../components/Accordeon/Accordeon";
 import Author from "../../components/Author/Author";
@@ -11,16 +11,7 @@ import './location.scss';
 
 const Location = () => {
 
-    let {id} = useParams()
-    const [location, setLocation] = useState()
-
-    useEffect(() => {
-        fetch('/data.json').then(res => res.json()).then(data => {
-
-            const l = data.find(d => d.id === id)
-            setLocation(l)
-        })
-    }, [])
+    const location = useLoaderData()
 
     if(!location){
         return ''

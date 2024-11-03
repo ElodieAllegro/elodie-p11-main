@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const Layout = () => {
@@ -13,8 +13,15 @@ const Layout = () => {
                     </section>
                     <nav className="nav">
                         <ul>
-                            <li><a href="/">Accueil</a></li>
-                            <li><a href="/about">A propos</a></li>
+                            <li>
+                                <NavLink to="/">
+                                    Accueil
+                                </NavLink>
+                            </li>                        
+                            <li><NavLink to="/about">
+                                    A propos
+                                </NavLink>
+                            </li>
                         </ul>
                     </nav>
                 </div>                

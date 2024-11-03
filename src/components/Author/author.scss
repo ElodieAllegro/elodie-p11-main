@@ -1,7 +1,8 @@
 .author{
     display: flex;
-    flex-direction: row-reverse;
     width: 50%;
+    align-items: center;
+    justify-content: flex-end;
     .author-picture {       
         border-radius: 70px;
         width: 32px;
@@ -18,9 +19,8 @@
 
 @media screen and (min-width: 1024px) {
     .author{
-        display: flex;
-        justify-content: end;
-        margin: 10px 10px;
+        display: flex;        
+        margin: 12px 0;
       
         .author-picture {       
             border-radius: 70px;
@@ -29,7 +29,8 @@
     }
     .author-name{
         font-size: 18px;
-        width: 25%;
+        justify-content: end;
+        width: auto;
         margin: 0 10px;
         text-align: end;
     }

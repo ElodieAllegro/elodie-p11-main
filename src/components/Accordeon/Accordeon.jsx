@@ -14,7 +14,7 @@ const Accordeon = ({title, children}) => {
 
     return <div className={`accordeon ${display ? 'open' : ''}`}>
         <div className="title">
-            {title}
+            <p>{title}</p>
             <button onClick={onDisplayContent}>
                 <img src={ArrowDown} alt="arrow-down" />
             </button>    
