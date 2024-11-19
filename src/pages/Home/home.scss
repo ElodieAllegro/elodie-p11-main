@@ -15,7 +15,7 @@
   @media screen and (min-width: 768px) {
     .locations {
       grid-template-columns: repeat(2, 3fr);
-      background-color: rgba(246, 246, 246, 1);
+      background-color: var(--secondary-color);
       padding: 30px;
 
     }

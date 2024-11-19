@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { useLoaderData, useNavigate, useParams } from "react-router-dom";
+// import { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
 import Slider from "../../components/Slider/Slider";
 import Accordeon from "../../components/Accordeon/Accordeon";
 import Author from "../../components/Author/Author";

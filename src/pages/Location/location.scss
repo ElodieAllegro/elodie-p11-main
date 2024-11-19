@@ -1,10 +1,11 @@
 .location-info{
-  
+    
+
     .title-location{
         font-size: 18px;
         font-weight: 500;
         margin-bottom: 0px;
-        color:rgba(255, 96, 96, 1);
+        color: var(--primary-color);
     }
     .left{
         width: 100%; 
@@ -35,7 +36,7 @@
         .title-location{
             font-size: 36px;
             font-weight: 500;
-            color:rgba(255, 96, 96, 1);
+            color: var(--primary-color);
         }
         .left{
             width: 100%; 

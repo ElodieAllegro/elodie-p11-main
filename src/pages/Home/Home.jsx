@@ -9,10 +9,10 @@ const Home = () => {
     const [locations, setLocations] = useState([])
 
     useEffect(() => {
-        fetch('data.json')
-        .then(res => res.json())
-        .then((data) => {
-            setLocations(data)
+        fetch('data.json')  //Appel vers le fichier JSON
+        .then(res => res.json()) //conversion des objets en javascript
+        .then((data) => { 
+            setLocations(data) //Mise à jour du state avec les données des logements
         })
     }, [])
 

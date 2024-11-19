@@ -2,8 +2,8 @@
   .accordeon {
     margin-bottom: 30px;
     .title {
-      background: #ff6060;
-      color: white;
+      background: var(--primary-color);
+      color:var(--secondary-color);
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -24,7 +24,7 @@
     .accordeon-content {
       overflow: hidden;
       transition: height 0.5s ease-in-out;
-      background: #f6f6f673;
+      background: var(--secondary-color);
 
       > div {
         padding: 16px 20px;

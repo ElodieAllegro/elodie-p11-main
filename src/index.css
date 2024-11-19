@@ -16,16 +16,19 @@
   font-weight: 700;
 }
 
-
 :root {
   font-family: Montserrat, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --primary-color: rgba(255, 96, 96, 1);
+  --secondary-color:rgba(246, 246, 246, 1);
+  --tertiary-color: #f6f6f673;
+  --fourth-color: #000000;
 }
 
 a {
   font-weight: 500;
-  color: #000000;
+  color: var(--fourth-color);
   text-decoration: none;
 }
 
@@ -77,8 +80,8 @@ body {
 }
 
 footer{
-  background-color: #000000;
-  color: #ffffff;
+  background-color:var(--fourth-color);
+  color: var(--secondary-color);
   font-weight: 500;
 }
 footer section{
