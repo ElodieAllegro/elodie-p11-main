@@ -7,7 +7,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     color:var(--secondary-color);
-    align-items: flex-end;
     text-align: start;
     font-size: 18px;
     position: relative;
@@ -26,5 +25,6 @@
     width: 80%;
     border-radius: 5px;
     position: relative;
+    top:240px;
     z-index: 10;
 }
