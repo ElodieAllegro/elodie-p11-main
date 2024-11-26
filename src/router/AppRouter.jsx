@@ -5,11 +5,11 @@ import Error404 from "../pages/404/404.jsx";
 import Layout from "../components/Layout/Layout";
 
 import { RouterProvider, 
-createBrowserRouter,
+createHashRouter,
 createRoutesFromElements, 
 Route } from "react-router-dom";
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     createRoutesFromElements(
       <Route 
         element={<Layout />}

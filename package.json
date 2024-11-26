@@ -1,13 +1,14 @@
 {
-  "name": "p11-kasa",
+  "name": "elodie-p11-main",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+   "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build-prod": "BASE_URL=elodie-p11-main vite build"
   },
   "dependencies": {
     "react": "^18.3.1",
