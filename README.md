@@ -1,6 +1,6 @@
 # README - Projet Kasa
 
-## Description
+## Description:
 Kasa est une plateforme de location d'appartements qui offre aux utilisateurs une expérience fluide et intuitive pour trouver des logements adaptés à leurs besoins. Le projet a été développé dans le cadre d'une mission front-end, mettant en avant les technologies modernes comme React et Vite.
 
 ## Objectifs du Projet
